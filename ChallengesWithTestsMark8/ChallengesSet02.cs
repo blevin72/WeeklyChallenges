@@ -42,15 +42,15 @@ namespace ChallengesWithTestsMark8
             {
                 return 0;
             }
-            double max = double.MaxValue;
-            double min = double.MinValue;
+            double max = double.MinValue;
+            double min = double.MaxValue;
             foreach (double number in numbers)
             {
                 if (number > max)
                 {
                     max = number;
                 }
-                if (number < max)
+                if (number < min)
                 {
                     min = number;
                 }
